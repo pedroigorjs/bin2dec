@@ -5,8 +5,8 @@
   "author": "Pedro Sampaio <pedroigorjs@gmail.com> (https://github.com/pedroigorjs)",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode=production",
-    "start": "webpack-dev-server --mode=development"
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -31,6 +31,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
