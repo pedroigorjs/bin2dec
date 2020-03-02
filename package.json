@@ -5,8 +5,8 @@
   "author": "Pedro Sampaio <pedroigorjs@gmail.com> (https://github.com/pedroigorjs)",
   "license": "MIT",
   "scripts": {
-    "start:dev": "webpack-dev-server --mode=development",
-    "start:build": "webpack --mode=production"
+    "start": "webpack --mode=production",
+    "start:dev": "webpack-dev-server --mode=development"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
